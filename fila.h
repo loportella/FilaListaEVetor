@@ -1,0 +1,17 @@
+typedef struct filalista fl;
+typedef struct filavetor fv;
+fl *flcria();
+void flpush(fl *f,float i);
+fl *flremo(fl *f);
+fl *flpini(fl *f,float i);
+void fllibera(fl *f);
+int flvazia(fl *f);
+void flimp(fl *f);
+fl *flinverte(fl *f);
+fl *flmais(fl *f,float v);
+fv *fvcria();
+int fvvazia(fv *f);
+fv *fvpush(fv *f,float v);
+void fvimp(fv *f);
+void fvremo(fv *f);
+void fvlibera(fv *f);
